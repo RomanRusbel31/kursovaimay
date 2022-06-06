@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(253, 187, 187);
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 72, 245);
+    width: 100%;
+}
+.nav-ul li{
+    display: inline-flex;
+}
+.nav-ul a{
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+.nav-ul a:hover{
+    color: rgb(88, 16, 76);
+}
+
+.listt{
+    list-style-type: circle;
+}
+
+.container{
+    margin: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo-txt{
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+.img{
+    text-align: center;
+    margin: 10px;
+}
+e
+.txt{
+    padding: 15px;
+
+}
+.txt ul{
+    list-style-type: none;
+}
+li{
+    font-size: 20px;
+}
+.video{
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+body{
+    position: relative;
+    min-width: 320px;
+    background: rgb(253, 187, 187);
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    
+}
+header{
+   padding: 0;
+   margin: 0;
+    height: 70px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(34, 31, 31);
+    text-shadow: white 1px 2px; 
+}
+.nav{
+   background-color: rgb(245, 72, 245);
+   
+}
+.ul-one{
+    text-align: center;
+}
+.ul-one li{
+    display: inline-flex;
+}
+.ul-one a{
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 30px;
+    color: white;
+    display: block;  
+}
+.ul-one a:hover {
+    color: rgb(88, 16, 76);
+    
+}
+.hqb{
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+.hqb-img{
+
+ float: left;
+ margin-left: 70px;
+
+   
+}
+.txt-m{
+   display: flex;
+    float: center;
+   font-size: 35px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   margin: 10px;
+   
+}

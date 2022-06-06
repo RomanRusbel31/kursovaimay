@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css5.css">
+    <title>glav</title>
+    <script type="text/javascript">
+        function digitalWatch() {
+          var date = new Date();
+          var hours = date.getHours();
+          var minutes = date.getMinutes();
+          var seconds = date.getSeconds();
+          if (hours < 10) hours = "0" + hours;
+          if (minutes < 10) minutes = "0" + minutes;
+          if (seconds < 10) seconds = "0" + seconds;
+          document.getElementById("digital_watch").innerHTML = hours + ":" + minutes + ":" + seconds;
+          setTimeout("digitalWatch()", 1000);
+        }
+      </script>
+</head>
+<body>
+        <img class="hqb-img" src="https://cdn.icon-icons.com/icons2/2699/PNG/64/huawei_logo_icon_169026.png?format=webp" alt="Huawei">
+        <h1><center>HUAWEI CLUB</center> </h1>
+        
+        <div class="nav">
+            <ul class="ul-one">
+                <li><a href="osn.html">Источник</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="noyt.html">Ноутбуки</a></li>
+                <li><a href="telef.html">Телефоны</a></li>
+                <li><a href="time"><body onload="digitalWatch()"><p id="digital_watch" style="color: rgba(247, 243, 243, 0.795); font-size: 25px; font-weight: bold; text-shadow: 1px 1px 2px black, 0 0 1em red; "></p></a> </li>
+            </ul>
+        </div>
+    
+    <main>
+        <main>
+            <div class="hqb">
+                <div class="txt-m">Huawei — китайский производитель и ведущий мировой поставщик интеллектуальных устройств и инфраструктуры в области информационно-коммуникационных технологий (ИКТ). 
+                    Наша миссия — принести цифровые технологии каждому человеку, дому и организации для создания полностью подключенного интеллектуального мира.</div>
+            </div>
+        </main>
+    </main>
+</body>
+</html>
